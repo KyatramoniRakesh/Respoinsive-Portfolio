@@ -737,6 +737,42 @@ body.light-theme {
   background-color: var(--first-color);
 }
 
+/*=============== EDUCATION ===============*/
+
+.education__card{
+  background-color: var(--container-color);
+  padding: 1.25rem 1.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  
+}
+.edu_info{
+  padding-left: 3rem;
+  padding-top: 1rem;
+  text-align: start;
+  
+}
+.edu_img{
+  height: 10rem;
+  width: 10rem;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .education__card .row {
+      
+      flex-direction: column;
+      display: block;
+  }
+  .education__card .col-md-4, .education__card .col-md-8 {
+      width: 100%;
+      display: block;
+  }
+}
+
+
 /*=============== CONTACT ===============*/
 .contact__container {
   row-gap: 3rem;
