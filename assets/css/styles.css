@@ -329,7 +329,8 @@ body.light-theme {
 }
 
 .home__img {
-  width: 160px;
+  /* width: 100%; */
+  /* height: 100%; */
 }
 
 .home__handle {
@@ -970,6 +971,10 @@ body.light-theme {
     width: 165px;
   }
 }
+
+
+
+
 
 /* For medium devices */
 @media screen and (min-width: 630px) {
