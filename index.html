@@ -659,7 +659,7 @@
                 <div class="contact__content">
                     <h3 class="contact__title contact__title-form">Write Me your Message</h3>
 
-                    <form action="https://formsubmit.co/rakesh.rk1306@email.com" method="POST" class="contact__form">
+                    <form action="https://formsubmit.co/rakesh.rk1306@gmail.com" method="POST" class="contact__form">
                         <div class="contact__form-div">
                             <label for="name" class="contact__form-tag">Name</label>
                             <input type="text" id="name" name="name" placeholder="Enter name" class="contact__form-input" required>
@@ -674,6 +674,8 @@
                             <label for="message" class="contact__form-tag">Message</label>
                             <textarea id="message" name="message" cols="30" rows="10" placeholder="Write your Message"
                                 class="contact__form-input" required></textarea>
+                            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                            <input type="hidden" name="_captcha" value="false">
                         </div>
                     
                         <button type="submit" class="button">Send Message</button>
